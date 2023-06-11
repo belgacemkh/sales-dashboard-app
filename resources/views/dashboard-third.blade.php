@@ -23,19 +23,15 @@
                 <div class="grid grid-cols-1 md:grid-cols-4 gap-6 lg:gap-8 text-center">
                     <div class="scale-100 p-6">
                         <div>
-                            <h1 class="title m-b-md text-secondary text-center">Sales Dashboard </h1>
-                            <p>Evenement avec appel d'une méthode</p>
+                            <h1 class="title m-b-md text-secondary text-center">Sales Dashboard Third</h1>
+                            <p>Polling : Wire poll et refresh function</p>
                         </div>
-                        @livewire('sales-dashboard')
+                        @livewire('sales-dashboard-third')
                     </div>
                 </div>
             </div>
             @livewireScripts
-            <script>
-                setInterval(function(){
-                    window.livewire.emit('fetshStats');
-                }, 1000);
-            </script>
+            
         </div>
     </body>
 </html>
